@@ -1,0 +1,52 @@
+const = generated api => e77ca35b96893f429136d3cd60ce4b30
+
+
+api.openweathermap.org/data/2.5/weather?q=pune&appid=e77ca35b96893f429136d3cd60ce4b30
+
+
+
+api => 
+{
+    "coord":{
+    "lon":73.8553,
+    "lat":18.5196
+    },
+
+"weather":[
+    {
+        "id":804,
+        "main":"Clouds",
+        "description":"overcast clouds",
+        "icon":"04d"}],
+
+"base":"stations",
+
+"main":{
+   "temp":297.47,
+   "feels_like":298.2,
+   "temp_min":297.47,
+   "temp_max":297.47,
+   "pressure":1009,
+   "humidity":86,
+   "sea_level":1009,
+   "grnd_level":947
+    },
+
+   "visibility":10000,
+
+   "wind":{
+       "speed":4.97,
+       "deg":242,
+       "gust":10.37},
+       "clouds":{"all":99},
+       "dt":1631166094,
+    "sys":{
+        "country":"IN",
+        "sunrise":1631148688,
+        "sunset":1631193169
+        },
+    "timezone":19800,
+    "id":1259229,
+    "name":"Pune",
+    "cod":200
+}
